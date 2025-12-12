@@ -1,0 +1,42 @@
+{
+  "name": "armed-claude",
+  "owner": {
+    "name": "Nutchanon (Ben) Ninyawee",
+    "email": "me@nutchanon.org"
+  },
+  "metadata": {
+    "description": "Claude skills and plugins collection for Supabase development and data analysis",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "supabase-skills",
+      "description": "Supabase development suite: database management, migrations, and seeding",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/supabase-db",
+        "./skills/supabase-migration",
+        "./skills/supabase-seeding"
+      ]
+    },
+    {
+      "name": "data-skills",
+      "description": "Data analysis tools: DBF file analysis and processing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/dbf-analysis"
+      ]
+    },
+    {
+      "name": "san-watsadu",
+      "description": "San Watsadu (สรรวัสดุ) brand identity and styling for construction materials store in Thailand",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./san-watsadu/brand-guidelines"
+      ]
+    }
+  ]
+}
