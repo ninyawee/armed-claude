@@ -17,7 +17,8 @@
       "skills": [
         "./skills/supabase-db",
         "./skills/supabase-migration",
-        "./skills/supabase-seeding"
+        "./skills/supabase-seeding",
+        "./skills/supabase-bootstrap"
       ]
     },
     {
@@ -36,6 +37,15 @@
       "strict": false,
       "skills": [
         "./san-watsadu/brand-guidelines"
+      ]
+    },
+    {
+      "name": "media-gen",
+      "description": "Generate images and videos using Google GenAI (Gemini, Imagen, Veo)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/media-gen"
       ]
     }
   ]
