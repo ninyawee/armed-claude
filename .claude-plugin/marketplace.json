@@ -47,6 +47,15 @@
       "skills": [
         "./skills/media-gen"
       ]
+    },
+    {
+      "name": "project-bootstrap",
+      "description": "Bootstrap projects with MkDocs, GitHub Actions, Giscus comments, funding, and README polish",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/project-bootstrap"
+      ]
     }
   ]
 }
